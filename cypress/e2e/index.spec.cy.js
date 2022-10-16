@@ -1,5 +1,5 @@
 const users = Cypress.env('USERS')
-describe('login in saucedemo site', () => {
+describe('second login in saucedemo site', () => {
   it('should login as a standard user', () => {
     cy.Login(users['standard'])
   })
